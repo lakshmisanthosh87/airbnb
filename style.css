@@ -22,75 +22,166 @@
 .nav2{
     width: 60%;
     height: 15vh;
-     /* background-color: red;   */
+       /* background-color: red;     */
 
 }
 .subnav{
-    width: 80%;
+    width: 75%;
     height: 15vh;
-      /* background-color: brown;   */
+       /* background-color: brown;    */
     display: flex;
-    margin-left: 130px;
+    margin-left: 200px;
 }
 .subnav1{
     display: flex;
-    width: 22%;
+    width: 15%;
     height: 12vh;
-     /* background-color: rgb(135, 30, 30);  */
+      /* background-color: rgb(135, 30, 30);    */
     border-bottom: 3px solid black;
 }
 .subnav1 img{
-    width: 90px;
-    height: 60px;
+    width: 70px;
+    height: 50px;
     padding-top: 20px;
 }
 .subnav1 h1{
     padding-top: 40px;
-    font-size: 18px;
+    font-size: 15px;
     padding-right: 40px;
 }
 .subnav2{
     display: flex;
-    width: 30%;
+    width: 19%;
     height: 15vh;
-    /* background-color: rgb(187, 94, 94); */
+     /* background-color: rgb(187, 94, 94);  */
 }
 .subnav2 img{
-    width: 90px;
-    height: 60px;
+    width: 70px;
+    height: 50px;
     padding-top: 20px;
 }
 .subnav2 h1{
     padding-top: 40px;
-    font-size: 18px;
+    font-size: 15px;
     margin-right: 100px;
 }
 .subnav3{
     display: flex;
-    width: 30%;
+    width: 17%;
     height: 15vh;
-    /* background-color: rgb(185, 23, 23); */
+     /* background-color: rgb(185, 23, 23);  */
 }
 .subnav3 img{
-    width: 90px;
-    height: 60px;
+    width: 70px;
+    height: 50px;
     padding-top: 20px;
     padding-left: 10px;
 }
 .subnav3 h1{
     padding-top: 40px;
-    font-size: 18px;
+    font-size: 15px;
     margin-right: 100px;
 }
 
 .nav3{
-    width:850px ;
-    height:70px ;
+    width:750px ;
+    height:60px ;
     border-radius: 1px solid gray ;  
     /* background-color: yellow; */
     border-radius: 30px;
     box-shadow: 1px 1px 10px gray ;
+    display: flex;
 }
+.one{
+    width: 200px;
+    height: 30px;
+    border-right: 1px solid black;
+    margin-top: 12px;
+}
+
+.one h3{
+    font-size: 12px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.one h4{
+    font-size: 14px;
+    color: grey;
+     padding-left: 25px;
+}
+
+.two{
+    width: 140px;
+    height: 30px;
+    border-right: 1px solid black;
+    margin-top: 12px;
+    
+    
+}
+
+.two h3{
+    font-size: 13px;
+    padding-left: 25px;
+    padding-top: 8px;
+}
+.two h4{
+    font-size: 13px;
+    color: grey;
+     padding-left: 25px;
+}
+
+
+.three{
+    width: 200px;
+    height: 30px;
+   
+    margin-top: 12px;
+}
+
+.three h3{
+    font-size: 12px;
+    padding-left: 25px;
+    padding-top: 8px;
+}
+.three h4{
+    font-size: 14px;
+    color: grey;
+     padding-left: 25px;
+}
+
+
+.nav4{
+    width: 19%;
+    height: 15vh;
+    /* background-color: yellow; */
+    display: flex;
+}
+.four{
+    display: flex;
+}
+.four img{
+    width: 70px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.imgg img{
+     width: 70px;
+    height: 50px;
+    padding-left: 1px;
+    padding-top: 20px;
+   
+}
+.nav4 p{
+     padding-top: 35px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -111,25 +202,57 @@
 
 .subfirst{
     width: 95%;
-    height: 26vh;
-    /* background-color: rebeccapurple;  */
-    margin-left: 20px;
+    height: 34vh;
+     /* background-color: rebeccapurple;   */
+    margin-left: 18px;
     display: flex;
     gap: 10px;
+    overflow-x: scroll;
+    scrollbar-width:none;
 }
 
 .row1{
     width: 200px;
     height: 160px;
-     /* background-color: yellow;  */
-    margin-top: 10px;
+      /* background-color: yellow;   */
+   
 }
 .row1 img{
     width: 162px;
-    height: 155px;
+    height: 160px;
     border-radius: 12px;
 }
 .row1 p{
-    font-size: 15px;
-   padding-top : -40px;
+    font-size: 13px;
+    position: relative;
+    bottom: 20px;
+}   
+.star{
+    padding-bottom: 50px;
+    display: flex;
+    width: 150px;
+    height: 10px;
+    /* background-color: green; */
+    position: relative;
+    bottom: 20PX;
+
+}  
+.substar{
+    display: flex;
+    width: 60px;
+    height: 20px;
+    /* background-color: pink; */
+    color: grey;
+}  
+.star p{
+    color: grey;
+}   
+.substar img{
+    width: 10px;
+    height: 10px;
+   
+} 
+.substar h2{
+    color: grey;
+    font-size: 10px;
 }
