@@ -24,7 +24,7 @@
 
     width: 130px;
     height: 100px;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 
 .first2{
@@ -39,7 +39,7 @@
 
     width: 70%;
     height: 10vh;
-    /* background-color: blue; */
+     /* background-color: blue;  */
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -76,12 +76,12 @@ padding-left: 10px;
 
 .nav1 .item2{
 
-    width: 30%;
+    width: 20%;
     height: 10vh;
     /* background-color: green; */
     display: flex;
-    align-items: center;
-    justify-content: center;
+     align-items: center;
+    /* justify-content: center;  */
 }
 
 .item2 img{
@@ -104,10 +104,10 @@ font-weight: 500;
 
     width: 30%;
     height: 10vh;
-    /* background-color: green; */
+     /* background-color: green;  */
     display: flex;
-    align-items: center;
-    justify-content: center;
+     align-items: center;
+    /* justify-content: center;  */
 }
 
 .item3 img{
@@ -135,7 +135,7 @@ font-weight: 500;
 
     width: 80%;
     height: 15vh;
-     background-color: blue; 
+     /* background-color: blue;  */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +143,7 @@ font-weight: 500;
 
 .search{
 
-    width: 100%;
+    width: 80%;
     height: 60px;
     border-radius: 40px;
     background-color: rgb(216, 211, 211);
@@ -212,7 +212,7 @@ padding-left: 20px;
     height: 50px;
     background-color: rgb(255, 65, 97);
     border-radius: 50%;
-    margin-left: 130px;
+    margin-left: 80px;
 }
 
 .search3 img{
@@ -513,8 +513,8 @@ bottom: 49px;
 .second{
 
     width: 100%;
-    height: 80vh;
-     /* background-color: red;  */
+    height: 60vh;
+      /* background-color: red;  */ 
    
    
    
@@ -955,7 +955,7 @@ height: 30px;
 
     .footer{
 
-        margin-top: 260px;
+        margin-top: 20px;
         height: 80vh;
     }
 
